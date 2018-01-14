@@ -1,8 +1,7 @@
 
 #  FLS 6397 - Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
 
-- Responsável: Leonardo S. Barone
-- Data: 13/07/2017
+- Autor: Leonardo S. Barone
 
 ## Aula 1 - Introdução ao curso e R Básico
 
@@ -16,8 +15,7 @@ Nesta aula vamos discutir o funcionamento do curso, definir os tópicos avançad
 
 2- A seguir, teremos uma rápida exposição sobre o ambiente R e o RStudio.
 
-3- A primeira experiência de programação no curso será com o Tutorial 1: [versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial1.Rmd) (sem outputs) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial1.pdf)
-(com outputs). Diferentemente de cursos convencionais de R, nos quais se apresenta primeiro R como linguagem de programação, vamos começar com aquilo que é distintivo em R, que é sua vocação para análise de dados. Em particular, vamos começar trabalhando com _data frames_, que são as matrizes de dados.
+3- A primeira experiência de programação no curso será com o Tutorial 1: [versão web](https://github.com/ngiachetta/FLS6397/blob/master/tutorials/tutorial1.Rmd) (sem outputs). Diferentemente de cursos convencionais de R, nos quais se apresenta primeiro R como linguagem de programação, vamos começar com aquilo que é distintivo em R, que é sua vocação para análise de dados. Em particular, vamos começar trabalhando com _data frames_, que são as matrizes de dados.
 
 ### Roteiro pós-aula
 
