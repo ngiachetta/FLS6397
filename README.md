@@ -1,4 +1,4 @@
-Observação: Este material foi cedido por Leonardo S. Barone e adaptado de acordo com a sua aprovação. O material da disciplina original pode ser acessado [aqui](https://github.com/leobarone/FLS6397).
+`Observação: Este material foi cedido por Leonardo S. Barone e adaptado de acordo com a sua aprovação. O material da disciplina original pode ser acessado [aqui](https://github.com/leobarone/FLS6397).`
 
 #  Curso: Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais (Graduação)
 
