@@ -1,29 +1,33 @@
-#  FLS 6397 - Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
+# Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
 
-versão online do programa disponível em https://github.com/leobarone/FLS6397/
+versão online do programa disponível em https://github.com/ngiachetta/FLS6397
 
 ## 1. Informações básicas
 
 ### Semestre: 
-1o de 2017
+1o de 2018
 
 ### Responsáveis: 
-Leonardo S. Barone e Fernando Limongi
+
+* Alexia Aslan
+* Leonardo Diegues
+* Nathan Giachetta (ngiachetta@gmail.com)
+* Rafael Coelho
 
 ### Horário: 
-Segundas-feiras, no período da manhã, das 9h às 13h
+Sextas-feiras, no período da noite, das 19h30 às 22h
 
 ### Sala: 
 a definir
 
-### Número de Créditos: 
-8
+### Certificado: 
+SIM
 
 ## 2. Apresentação
 
 O curso oferece aos estudantes de pós-graduação em ciências sociais uma iniciação à lógica de programação e ao uso de ferramentas computacionais para (1) coleta (2) organização e preparação e (3) apresentação de dados para pesquisa social. O foco do curso é o desenvolvimento da habilidade de programação para solução de problemas diversos relacionados ao manejo de dados com fins de pesquisa. Note-se que não é um curso de metodologia de pesquisa, análise de dados ou de ciências sociais computacionais.
 
-Este curso pretende preencher uma lacuna de formação comum em alun@s de pós-graduação em ciências sociais referente à habilidade de lidar com dados e ferramentas computacionais para a condução de suas pesquisas.
+Este curso pretende preencher uma lacuna de formação comum em alun@s da graduação em ciências sociais referente à habilidade de lidar com dados e ferramentas computacionais para a condução de suas pesquisas.
 
 O curso está dividido em duas partes. A primeira parte do curso foca na preparação do ambiente computacional, apresentação de ferramentas e "alfabetização" e nas linguagens de programação utilizadas no curso -- R, Git, SQL, Markdown, etc. A segunda parte foca em aplicações das habilidades desenvolvidas a problemas de manipulação de grandes bases de dados, coleta de dados na internet e via uso de APIs de terceiros, organização de documentos para análise textual, confecção de gráficos e mapas ou demais tópicos de interesse da turma. Os tópicos serão apresentadas definitivamente no syllabus no começo do semestre e abaixo segue uma lista provisória.
 
@@ -44,8 +48,6 @@ As 3 atividades abaixo (originalmente de uma oficina oferecida no DCP) são exem
 
 A cada semana haverá um desafio correspondente ao tópico. Exemplos de desafios: (1) organizar automaticamente dados eleitorais a partir do repositório de dados do TSE; (2) elaborar um mapa com dados municipais a partir do DATASUS; (3) criar um corpus de notícias da internet; (4) abrir e organizar os dados do ENEM ou Censo Populacional. Os desafios exigirão dedicação extra-classe e são parte fundamental do curso.
 
-Entre aulas, tutoriais e desafios, espera-se que cada alun@ dedique de 8h a 12h por semana à disciplina.
-
 ### Avaliação
 
 A avaliação é composta pela entrega dos desafios e de um projeto final de organização de dados. A atribuição de nota para os desafios e projetos entregues priorizará o esforço e engenhosidade apresentados (leia-se "código com erros, mas bem elaborado")  em detrimento da finalização do desafio (leia-se "código funcionando plenamente") como forma de encorajar estudantes iniciantes. 
@@ -54,13 +56,6 @@ A avaliação é composta pela entrega dos desafios e de um projeto final de org
 
 Não é necessário nenhum conhecimento prévio de programação, pacotes estatísticos ou manejo de conjuntos de dados. O curso é recomendado para tanto alun@s que já têm alguma noção quanto para estudantes que morrem de medo de computadores. O objetivo é criar um ambiente confortável para o aprendizado de técnicas programação, independentemente da habilidade d@s inscrit@s, e seguindo todos os passos desde a preparação do ambiente de computação até a apresentação de resultados.
 
-É recomendado que @s alun@s inscrit@s já tenham concluído ou esteja cursando algum curso de métodos de pesquisa (de qualquer abordagem) ou de análise de dados, seja do programa ou da IPSA Summer School. É um curso adequado para estudantes em qualquer etapa do mestrado ou doutorado, desde que tenham disponibilidade para realizar as atividades extra-classe.
-
-Estudantes do DCP-USP que podem se matricular regularmente não serão aceit@s como ouvintes.
-
-## 5. Agenda
-
-A ser definina em breve.
 
 ## 6. Tópicos (PROVISÓRIO)
 
