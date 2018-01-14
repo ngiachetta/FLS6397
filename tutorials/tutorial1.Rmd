@@ -17,13 +17,13 @@ Por esta razão, em vez de aprender como fazer aritmética, elaborar funções o
 
 As principais características de um data frame são: (1) cada coluna representa uma variável (ou característica) de um conjunto de observações; (2) cada linha representa uma observação e contém os valores de cada variável para tal observação. Vejamos um exemplo:
 
-| Candidato | Partido | Votos | 
-| --------- |:-------:| -----:|
-| Beatriz   | PMDB    |   350 | 
-| Danilo    | SOL     |  1598 | 
-| Pedro     | PTB     |   784 | 
-| Davi      | PSD     |   580 | 
-| Mateus    | PV      |   2   | 
+| Candidato | Partido  | Votos | 
+| --------- |:--------:| -----:|
+| Beatriz   | PMDB     |   350 | 
+| Danilo    | PSOL     |  1598 | 
+| Pedro     | PTB      |   784 | 
+| Davi      | PSD      |   580 | 
+| Mateus    | PV       |   2   | 
 
 Note que em uma linha os elementos são de tipos de diferentes: na primeira coluna há uma nome (texto), na segunda uma sigla de partido (texto, mas limitado a um conjunto de siglas) e na terceira votos (número inteiros). 
 
@@ -178,7 +178,7 @@ jornal <- c("The Guardian", "The Guardian", "The Guardian", "Folha de São Paulo
 
 Opa, calma! Temos um monte de coisas novas aqui!
 
-A primeira delas é: se você criou corretamente o vetor _jornal_, então nada aconteceu na sua tela, ou seja, nenhum output foi impresso. Isso se deve ao fato de que criamos um novo __objeto__, chamado _jornal_ e __atribuímos__ a ele os valores coletados sobre os nomes dos veículos nos quais coletamos as notícias. O símbolo de __atribuição__ em R é __<-__. Note que o símbolo lembra uma seta para a esquerda, indicando que o conteúdo do vetor será armazenado no objeto _jornal_.
+A primeira delas é: se você criou corretamente o vetor _jornal_, então nada aconteceu na sua tela, ou seja, nenhum output foi impresso. Isso se deve ao fato de que criamos um novo __objeto__, chamado _jornal_ e __atribuímos__ a ele os valores coletados sobre os nomes dos veículos nos quais coletamos as notícias. O símbolo de __atribuição__ em R é `<-`. Note que o símbolo lembra uma seta para a esquerda, indicando que o conteúdo do vetor será armazenado no objeto _jornal_.
 
 Objetos não são nada mais do que um nome usado para armazenar dados na memória RAM (temporária) do seu computador. No exemplo acima, _jornal_ é o objeto e o vetor é a informação armazenada. Uma vez criado, o objeto está disponível para ser usado novamente, pois ele ficará disponível no __workspace__. Veremos adiante que podemos criar um _data frame_ a partir de vários vetores armazenados na memória. Especificamente no RStudio, os objetos ficam disponíveis no painel _environment_ (que provavelmente está no canto direito superior da sua tela).
 
@@ -347,7 +347,7 @@ R é uma linguagem extremamente flexível quanto ao formato de dados que podem s
 
 Com o pacote _foreign_ abriremos arquivos produzidos por outros softwares -- como Stata e SPSS. Podemos também conectar o R a sistemas de gerenciamento de bancos de dados relacionais, como o SQL Server. Finalmente, podemos receber via web arquivos em formato XML ou Json e transformá-los em _data frames_ em poucos passos.
 
-Vamos começar com o exemplo simples. Baixe os dados com resultados eleitorais (votação nominal por município e zona) do Acre em 2014 disponíveis [aqui] (https://raw.githubusercontent.com/leobarone/FLS6397/master/data/votacao_candidato_munzona_2014_AC.txt) (clique em "Save link as" e faça o download o vá [aqui] (https://github.com/leobarone/FLS6397/blob/master/data/votacao_candidato_munzona_2014_AC.txt) e clique em download). Estes dados são provenientes do [Repositório de Dados Eleitorais] (http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais) do TSE. O Tribunal disponibiliza para cada ano eleitoral arquivos por UF em formato de texto (.txt) e numa pasta comprimida em formato .zip.
+Vamos começar com o exemplo simples. Baixe os dados com resultados eleitorais (votação nominal por município e zona) do Acre em 2014 disponíveis [aqui](https://raw.githubusercontent.com/leobarone/FLS6397/master/data/votacao_candidato_munzona_2014_AC.txt) (clique em "Save link as" e faça o download o vá [aqui](https://github.com/leobarone/FLS6397/blob/master/data/votacao_candidato_munzona_2014_AC.txt) e clique em download). Estes dados são provenientes do [Repositório de Dados Eleitorais](http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais) do TSE. O Tribunal disponibiliza para cada ano eleitoral arquivos por UF em formato de texto (.txt) e numa pasta comprimida em formato .zip.
 
 Obs: se você tiver algum problema com o download, encoding, ou outro, pode ir direto ao Repositório e fazer o download de lá. Quando aprendermos algo de github esse problema deixará de existir.
 
