@@ -1,17 +1,18 @@
-#  FLS 6397 - Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
+# Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
 
 - Responsável: Leonardo S. Barone
-- Data: 16/05/2017
+- Adaptado por: Nathan Giachetta
+- Data: definir
 
 ## Desafio 4
 
 ## Instruções para Entrega
 
-Data: 26/05
+Data: definir
 
 Formato: 2 arquivos: (1) RScript (arquivo .R); (2) arquivo .pdf ou .html produzido com RMarkdown.
 
-Via: e-mail com título "[FLS6397] - D4".
+Via: e-mail com título "[R-CiênciasSociais] - D4".
 
 __OBS: Atividade depende do Desafio 3__
 
@@ -26,14 +27,14 @@ O arquivo .pdf ou .html produzido em RMarkdown deve contar as informações dos 
 As primeiras linhas do seu script devem conter suas informações pessoais como comentário, tal qual o modelo abaixo:
 
 ```{r}
-### nome <- c("Fulano da Silva Sauro", "Sauro da Silva Fulani", "Silvia Fulane de Sauro")
-### programa <- c("Mestrado em Paleontologia", "Doutorado em Paleontologia", "Docente do Dpto. de Paleontologia da USP")
-### n_usp <- c(32165498, 83216549, 98321654)
-### data_entrega: "29/02/2017"
+### nome <- c("Fulano da Silva Sauro","Fulana da Silva Sauro","Sauro da Silva Fulano")
+### graducao <- c("Primeiro ano", "Segundo ano", "Quarto ano")
+### n_usp <- c(32165438,78165598, 43895498)
+### data_entrega: ""
 ```
 
 ### Instruções únicas
 
-Elabore 4 mapas da Região Metropolitana de São Paulo utilizando dados de cada uma das 4 fontes do Desafio 3.
+Elabore 2 (ou 3, se quiser) mapas da Região Metropolitana de São Paulo utilizando dados de cada uma das 4 fontes do Desafio 3.
 
-URL do shape file [aqui](url_shp_eleicoes_sp <- "https://github.com/leobarone/FLS6397/raw/master/data/rmsp.zip"). Você pode usar outro shapefile de município para trabalhar com o total de municípios do país, algum estado ou outra RM, se preferir e tiver o shapefile à mão.
+URL do shape file [aqui](url_shp_eleicoes_sp <- "https://github.com/ngiachetta/FLS6397/blob/master/data/rmsp.zip?raw=true"). Você pode usar outro shapefile de município para trabalhar com o total de municípios do país, algum estado ou outra RM, se preferir e tiver o shapefile à mão.
