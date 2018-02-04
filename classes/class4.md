@@ -7,9 +7,9 @@
 
 ### Objetivos Gerais
 
-Nas três primeiras aulas aprendemos bastante sobre o básico da linguagem R. Ainda falta ver alguns dos aspectos básicos da linguagem -- missing values, gráficos e tabelas --, mas por conta do calendário faremos um desvio de rota. Trabalharemos hoje com o básico do pacote _dplyr_ e veremos como trabalhar com dados relacionais.
+Nas três primeiras aulas aprendemos bastante sobre o básico da linguagem R. Ainda falta ver alguns dos aspectos básicos da linguagem -- missing values, gráficos e tabelas, mas trabalharemos hoje com o básico do pacote _dplyr_ e veremos como trabalhar com dados relacionais.
 
-O curso começa a ficar mais difícil a partir de hoje, tanto pelo volume de tarefa ou pelo fato de que vocês começarão a produzir código, quanto pela complexidade dos tópicos. Se você tem pendências com o curso -- tutoriais não acabados ou leitura atrasada -- esse é o momento adequado para eliminá-las.
+O curso começa a ficar mais difícil a partir de hoje, tanto pelo volume de tarefa ou pelo fato de que vocês começarão a produzir código, quanto pela complexidade dos tópicos, mas não se preocupam tanto com isso, iremos juntos! Recomendamos que se você tem pendências com o curso -- tutoriais não acabados ou leitura atrasada -- esse é o momento adequado para eliminá-las.
 
 Para quem nunca trabalhou com bases de dados relacionais, essa aula pode ser um pouco mais difícil. Não se preocupe se não entender logo de cara. Há uma leitura bastante boa (Capítulo 10 do livro _R for Data Science_), indicada abaixo.
 
@@ -17,15 +17,13 @@ Para quem nunca trabalhou com bases de dados relacionais, essa aula pode ser um 
 
 0 - Se você teve dúvidas ou problemas para resolver o desafio da semana anterior, o começo da aula é um bom momento para conversarmos.
 
-1- Comece o Tutorial 6 assim que chegar em sala de aula [versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial6.Rmd) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial6.pdf). Este tutorial trata da manipulação de dados com as funções do pacote _dplyr_.
+1- Comece o Tutorial 6 assim que chegar em sala de aula [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial6.Rmd). Este tutorial trata da manipulação de dados com as funções do pacote _dplyr_.
 
-2- A seguir, faça o Tutorial 7 [versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial7.Rmd) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial7.pdf), sobre bases de dados relacionais.
+2- A seguir, faça o Tutorial 7 [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial7.Rmd), sobre bases de dados relacionais.
 
 ### Desafio 1
 
-Clique [aqui](https://github.com/leobarone/FLS6397/blob/master/activities/datachallange1.md) e vá para o desafio.
-
-Você deve entregá-lo até o dia 13/04. As instruções para entrega estão no próprio desafio.
+Clique [aqui](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/activities/datachallange1.md) e vá para o desafio. Lembre-se que ele não é obrigátório, porém nós recomendamos que tentem fazer e venham tirar qualquer tipo de dúvida.
 
 ### Roteiro pós-aula
 
