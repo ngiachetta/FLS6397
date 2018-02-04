@@ -1,6 +1,7 @@
 # Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
 
 - Responsável: Leonardo S. Barone
+- Adaptado por: Nathan Giachetta
 - Data: 
 
 ## Aula 4 - Primeiros passos no tidyverse
