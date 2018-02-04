@@ -181,7 +181,7 @@ saques_amostra_201701 <- saques_amostra_201701 %>%
 ```
 
 
-## Pasos para agregações cumulativas
+## Passos para agregações cumulativas
 
 Em primeiro lugar, vamos construir uma tabela agrupada por município usando _group\_by_ e _summarise_:
 
