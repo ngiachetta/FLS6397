@@ -37,7 +37,7 @@ Ademais de avançar na leitura, revise os tutoriais que precisar e conclua o des
 
 ### Exercício de correção de erros
 
-Vamos deixar esse recurso de lado por enquanto, pois já temos muita tarefa para casa.
+Vamos deixar esse recurso de lado por enquanto, pois já temos muita tarefa para casa...
 
 ### Recurso para auto-estudo
 
