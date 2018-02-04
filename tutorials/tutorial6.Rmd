@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Nosso primeiro exemplo será a base de dados dos saques efetuados pelos beneficiários do Bolsa Família em janeiro de 2017. Em primeiro lugar, podemos ir ao [portal da transparência](http://www.portaldatransparencia.gov.br/downloads/mensal.asp?c=BolsaFamiliaSacado#exercicios2017).
 
-O arquivo de 2017 contém 1.6Gb. É um arquivo bastante grande, com 14 variáveis (colunas) e mais de 12 milhões de linhas. Arquivos grandes podem ser abertos no R usando a função _fread_, disponível no pacote _data.table_. Num futuro breve veremos o que são funções e pacotes. Por enquanto, basta saber que tornamos as funções de um pacote disponíveis se importarmos o pacote para nossa biblioteca usando a função _library_.
+O arquivo de 2017 contém 1.6Gb. É um arquivo bastante grande, com 14 variáveis (colunas) e mais de 12 milhões de linhas. Arquivos grandes podem ser abertos no R usando a função _fread_, disponível no pacote _data.table_. Caso você esteja com problemas para abrir a base clique [aqui](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/data/AMOSTRA_201701_BolsaFamiliaSacado.csv.zip) para baixar uma amostra do banco. Num futuro breve veremos o que são funções e pacotes. Por enquanto, basta saber que tornamos as funções de um pacote disponíveis se importarmos o pacote para nossa biblioteca usando a função _library_.
 
 ```{r}
 library(data.table)
