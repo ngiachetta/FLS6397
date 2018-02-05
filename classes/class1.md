@@ -1,7 +1,8 @@
+#  Programação para Ciências Sociais
 
-#  FLS 6397 - Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
+- Responsável: Leonardo S. Barone
 
-- Autor: Leonardo S. Barone
+- Adaptado por Rafael Coelho
 
 ## Aula 1 - Introdução ao curso e R Básico
 
@@ -15,21 +16,23 @@ Nesta aula vamos discutir o funcionamento do curso, definir os tópicos avançad
 
 2- A seguir, teremos uma rápida exposição sobre o ambiente R e o RStudio.
 
-3- A primeira experiência de programação no curso será com o Tutorial 1: [versão web](https://github.com/ngiachetta/FLS6397/blob/master/tutorials/tutorial1.Rmd) (sem outputs). Diferentemente de cursos convencionais de R, nos quais se apresenta primeiro R como linguagem de programação, vamos começar com aquilo que é distintivo em R, que é sua vocação para análise de dados. Em particular, vamos começar trabalhando com _data frames_, que são as matrizes de dados.
+3- A primeira experiência de programação no curso será com o Tutorial 1: [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial1.Rmd) (sem outputs). Diferentemente de cursos convencionais de R, nos quais se apresenta primeiro R como linguagem de programação, vamos começar com aquilo que é distintivo em R, que é sua vocação para análise de dados. Em particular, vamos começar trabalhando com _data frames_, que são as matrizes de dados.
 
 ### Roteiro pós-aula
 
-Como estamos inciando com a linguagem R, ainda não teremos nenhuma atividade de avaliação ou desafio para o intervalo entre a 1a e 2a semanas. Vamos investir em aprender as especificidades da linguagem lendo um livro básico de programação em R.
+Embora as aulas e os tutoriais abrajam o essencial do R, a leitura e o estudo fora de sala são partes muito importantes para você melhorar as suas habilidades de programação. Infelizmente, há poucos maiterias de qualidade disponibilizados em português. Logo não se sinta precionad@ a utilizar as leituras recomendadas.
 
-A tarefa para a semana, portanto, é começar a ler o livro _Hands-on Programming With R_, de Garret Grolemund. Obrigatoriamente, você deve ler o Prefácio e os Capítulos 1 e 2, que compõem a Part I. Idealmente, seria bom avançar nos capítulos da Part II (3 a 6), mesmo sem terminá-los nesta semana (tente ler pelo menos o Capítulo 3). Use como critério de parada o seu limite de compreensão. Em breve leremos a Parte III também, então se organize para ler o livro em até 3 semanas (aprox. 60 páginas por semana).
+Leituras recomendadas:
 
-Durante a leitura, não se preocupe se você sentir dificuldade em algum tópico. Os primeiros tutoriais que faremos em sala de aula lidam com a maior parte dos tópicos do livro. Ademais, é a primeira vez que passo leitura para casa em um curso de R e na segunda aula discutiremos o quão proveitoso/difícil foi a tarefa e então poderemos para recalcular a rota.
+      + _Hands-on Programming With R_, de Garret Grolemund (Capítulos 1 e 2)
+
+Durante a leitura, caso tenha dificuldade com o inglês ou com os conceitos de programação trabalhados, não se preocupe! Conforme avançarmos no curso, os tutoriais que faremos têm como objetivo tratar desses assuntos.
 
 ### Exercício de correção de erros
 
-Em todas as aulas vou preparar exercícios de "correção de erros" para casa. Em outras palavras, vou escrever códigos com erros para vocês corrigirem como forma de se acostumarem com a linguagem. Clique abaixo para ir para o primeiro
+Ainda que o RStudio corriga as funções escritas por nós, exercícios de "correção de erros" ajudam a gente a se acustumar com a linguagem. Na medida do possível, iremos preparar exercícios desse tipo para que vocês possam faze em casa.
 
-[Fix the code 1](https://github.com/leobarone/FLS6397/blob/master/activities/fixthecode1.md)
+[Fix the code 1](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/activities/fixthecode1.md)
 
 ### Recurso para auto-estudo
 

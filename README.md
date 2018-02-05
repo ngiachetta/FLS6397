@@ -37,7 +37,6 @@ As aulas terão início às 19h30.
 - 05/06/2017 - [Aula 11](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class11.md) - Aprofundamento em ggplot e programação funcional
 - 12/06/2017 - [Aula 12](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class12.md) - Aprofundamento em ggplot e programação funcional (continuação)
 
-
 ## Desafios
 
 - [Desafio 0](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/activities/datachallange0.md)

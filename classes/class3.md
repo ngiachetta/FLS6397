@@ -1,7 +1,8 @@
-#  FLS 6397 - Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
+#  Programação para Ciências Sociais
 
 - Responsável: Leonardo S. Barone
-- Data: 27/03/2017
+
+- Adaptado por Rafael Coelho
 
 ## Aula 3 - Abrindo e manipulando dados em R
 
@@ -15,13 +16,13 @@ Nessa aula começaremos a fazer alguns desafios (sem a finalidade de avaliação
 
 0- Termine ou revise os tutoriais anteriores, se precisar.
 
-1- Tutorial 4 assim que chegar em sala de aula [versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial4.Rmd) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial4.pdf). Siga o seu próprio ritmo.
+1- Tutorial 4 assim que chegar em sala de aula [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial4.Rmd). Siga o seu próprio ritmo.
 
-2- A seguir, façao o Tutorial 5 [versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial5.Rmd) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial5.pdf). Não se preocupe se não acabar em sala de aula.
+2- A seguir, façao o Tutorial 5 [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial5.Rmd). Não se preocupe se não acabar em sala de aula.
 
-### Desafio 0
+### Desafio 0 (Opcional)
 
-Vamos começar a trabalhar sem os tutoriais em sala de aula. Se você tiver terminado a tempo o tutorial 5, comece a fazer o desafios de programação e manipulação de dados. Clique [aqui](https://github.com/leobarone/FLS6397/blob/master/activities/datachallange0.md) e vá para o desafio.
+Vamos começar a trabalhar sem os tutoriais em sala de aula. Se você tiver terminado a tempo o tutorial 5, comece a fazer o desafios de programação e manipulação de dados. Clique [aqui](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/activities/datachallange0.md) e vá para o desafio.
 
 Se você tiver acabado tudo com rapidez, converse comigo para receber um desafio extra (ou pode ir embora, se preferir).
 
@@ -33,7 +34,6 @@ Ademais de avançar na leitura, revise os tutoriais que precisar e conclua o des
 
 ### Exercício de correção de erros
 
-Estou atrasado com a elaboração destes exercícios e em breve devo anunciar um conjunto correspodendo aos últimos tópicos do curso.
 
 ### Recurso para auto-estudo
 

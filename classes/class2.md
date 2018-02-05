@@ -1,7 +1,8 @@
-#  FLS 6397 - Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
+#  Programação para Ciências Sociais
 
 - Responsável: Leonardo S. Barone
-- Data: 20/07/2017
+
+- Adaptado por Rafael Coelho
 
 ## Aula 2 - Do básico ao intermédiário
 
@@ -21,19 +22,21 @@ Como ainda estamos "calibrando" o curso e os tutoriais, pode ser que alguns de v
 
 Se você ficou um pouco insegur@ na aula passada, comece em:
 
-0- Revise rapidamente o Tutorial 1, da aula passada ([versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial1.Rmd) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial1.pdf)).
+0- Revise rapidamente o Tutorial 1, da aula passada ([versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial1.Rmd).
 
 Se a aula passada está clara para você, vá para:
 
-1- Tutorial 2 assim que chegar em sala de aula [versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial2.Rmd) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial2.pdf). Siga o seu próprio ritmo.
+1- Tutorial 2 assim que chegar em sala de aula [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial2.Rmd). Siga o seu próprio ritmo.
 
-2- A seguir, façao o Tutorial 3 [versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial3.Rmd) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial3.pdf). Não se preocupe se não acabar em sala de aula.
+2- A seguir, façao o Tutorial 3 [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial3.Rmd). Não se preocupe se não acabar em sala de aula.
 
 Se você tiver acabado tudo com rapidez, minha sugestão é botar em dia a leitura de _Hands-on Programming With R_. Se sua leitura estiver em dia, vá para o livro _R for Data Science_ e aprenda sobre R Markdown. Ou simplesmente termine a aula mais cedo mesmo.
 
 ### Roteiro pós-aula
 
-Siga com a leitura do livro _Hands-on Programming With R_, de Garret Grolemund. Termine a parte II do livro (até capítulo 6) ou use como critério de parada o seu limite de compreensão. Leremos a Parte III após a terceira aula.
+- Leitura recomendada:
+
+    + _Hands-on Programming With R_, de Garret Grolemund. Termine a parte II do livro (até capítulo 6)
 
 Vamos treinar três tópicos dos tutoriais de hoje com exercícios: cláusula condicionais, loops e funções. Faça os exercícios deste link (ainda não disponível - mandarei e-mail assim que estiver).
 
@@ -41,7 +44,7 @@ Vamos treinar três tópicos dos tutoriais de hoje com exercícios: cláusula co
 
 Quero fazer um exercício mais longo de "arrumação de código". Ainda não está preparado e faremos o exercício em momento oportuno.
 
-[Fix the code 2](https://github.com/leobarone/FLS6397/blob/master/activities/fixthecode1.md)
+[Fix the code 2](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/activities/fixthecode2.md)
 
 ### Recurso para auto-estudo
 
