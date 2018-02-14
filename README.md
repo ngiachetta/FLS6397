@@ -20,7 +20,7 @@ O curso está dividido em duas partes. A primeira parte do curso foca na prepara
 [Informações básicas](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/info_basica.md)
 ## Aulas
 
-As aulas terão início às 19h30.
+As aulas terão início no dia 7 de Março às 19h30.
 
 - 09/03/2017 - [Aula 1](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class1.md) - Introdução ao curso e R Básico.
 - 20/03/2017 - [Aula 2](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class2.md) - Do básico ao intermediário.
