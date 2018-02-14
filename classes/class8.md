@@ -2,7 +2,6 @@
 
 - Responsável: Leonardo S. Barone
 - Adaptado por: Nathan Giachetta
-- Data: 15/05/2017
 
 ## Aula 8 - Mapas no R
 
