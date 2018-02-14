@@ -5,10 +5,6 @@
 
 ## Aula 8 - Mapas no R
 
-### Avisos importantes
-
-Estamos caminhando para o final do curso e tivemos um mês e meio de muita turbulência, interrupções e conteúdo. Não deixe nada para trás e aproveite a retomada para ver se você está em dia com leituras, tutoriais e desafios.
-
 ### Objetivos Gerais
 
 Rever em sala de aula webscrapping, avançar no Desafio 3 e aprender o básico de mapas no R.
