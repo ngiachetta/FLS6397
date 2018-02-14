@@ -1,6 +1,7 @@
 #  FLS 6397 - Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
 
 - Responsável: Leonardo S. Barone
+- Adaptado por: Nathan Giachetta
 - Data: 15/05/2017
 
 ## Aula 8 - Mapas no R
@@ -15,21 +16,14 @@ Rever em sala de aula webscrapping, avançar no Desafio 3 e aprender o básico d
 
 ### Roteiro para a aula
 
-Leia o [Desafio 3](https://github.com/leobarone/FLS6397/blob/master/activities/datachallange3.md) e verifique se você sabe como fazê-lo. Hoje será sua última chance de tirar dúvidas sobre esse desafio.
+Leia o [Desafio 3](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/activities/datachallange3.md) e verifique se você sabe como fazê-lo. Hoje será sua última chance de tirar dúvidas sobre esse desafio.
 
-A seguir, faça o tutorial 8 sobre mapas no R [versão web](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial8.Rmd) ou [versão pdf](https://github.com/leobarone/FLS6397/blob/master/tutorials/tutorial8.pdf). Siga o seu próprio ritmo.
-
-
-Em momento oportuno, interromperei a turma para falar um pouco sobre webscrapping, pois tenho a sensação de que muitos continuam com dúvidas.
-
-### Desafio 4
-
-Ao final do dia estará no ar o Desafio 4, sobre mapas no R. Você deve entregá-lo até o dia 26/05. As instruções para entrega estão no próprio desafio.
+A seguir, faça o tutorial 8 sobre mapas no R [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial8.Rmd). Siga o seu próprio ritmo.
 
 ### Exemplos de Webscrapping realizados em sala de aula usando o pacote _rvest_
 
-- [Transparência](https://github.com/leobarone/FLS6397/blob/master/miscelanea/webscrapping_transparencia.R)
+- [Transparência](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/miscelanea/webscrapping_transparencia.R)
 
-- [BCB](https://github.com/leobarone/FLS6397/blob/master/miscelanea/webscrapping_bcb.R)
+- [BCB](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/miscelanea/webscrapping_bcb.R)
 
-- [STF](https://github.com/leobarone/FLS6397/blob/master/miscelanea/webscrapping_stf.R)
+- [STF](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/miscelanea/webscrapping_stf.R)
