@@ -22,7 +22,7 @@ Como ainda estamos "calibrando" o curso e os tutoriais, pode ser que alguns de v
 
 Se você ficou um pouco insegur@ na aula passada, comece em:
 
-0- Revise rapidamente o Tutorial 1, da aula passada ([versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial1.Rmd).
+0- Revise rapidamente o Tutorial 1, da aula passada [versão web](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/tutorials/tutorial1.Rmd).
 
 Se a aula passada está clara para você, vá para:
 
