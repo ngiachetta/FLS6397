@@ -1,4 +1,4 @@
-#  FLS 6397 - Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
+# Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
 
 - Responsável: Leonardo S. Barone
 - Adaptado por: Nathan Giachetta
