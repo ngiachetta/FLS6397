@@ -1,7 +1,8 @@
 # Introdução à Programação e Ferramentas Computacionais para as Ciências Sociais
 
 - Responsável: Leonardo S. Barone
-- Data: 10/04/2017 e 17/04/2017
+
+- Adaptado por: Nathan Giachetta e Rafael Coelho
 
 ## Aula 5 - Webscrapping com R
 
