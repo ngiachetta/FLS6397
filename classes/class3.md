@@ -10,7 +10,7 @@
 
 Neste tópico trabalharemos basicamente com as diferentes alternativas para importar dados de texto ou de outros softwares (MS Excel, Stata e SPSS) para o R e com a manipulação de _data frames_. Em conjunto com os tutoriais anteriores, terminamos o aprendizado básico da linguagem R e podemos seguir para tópicos mais avançados e interessantes a partir da próxima aula. Faltam apenas alguns detalhes da linguagem para que vocês não tenham problemas para "se virar" a partir daqui.
 
-Nessa aula começaremos a fazer alguns desafios (sem a finalidade de avaliação, por enquanto).
+Hoje, teremos o nosso primeiro desafio. Lembranco que para este curso eles não são obrigatórios, embora recomendemos fortemente que os façam. Não é possível parender programação sem testar as suas capacidades de resolver problemas!
 
 ### Roteiro para a aula
 
@@ -33,7 +33,6 @@ Se você é um das pessoas que teve dificuldades na leitura do livro _Hands-on P
 Ademais de avançar na leitura, revise os tutoriais que precisar e conclua o desafio proposta para esta aula. Se tiver dúvidas com relação ao desafio, programe-se para conversar comigo na aula seguinte.
 
 ### Exercício de correção de erros
-
 
 ### Recurso para auto-estudo
 

@@ -8,15 +8,15 @@
 
 ### Objetivos Gerais
 
-Nesta aula vamos cobrir um conjunto grande de aspectos da linguagem R. Aprenderemos sobreoperações matemáticas, inclusive com vetores,  fatores, matrizes e operadores relacionais e lógicos. Mais importante ainda do que tais operações da linguagem, veremos como criar claúsula condicionais, "while" e "for" loops e funções. Com isso, saíremos do "R básico" em direção ao "R intermediário".
+Nesta aula vamos cobrir um conjunto grande de aspectos da linguagem R. Aprenderemos sobre operações matemáticas, inclusive com vetores,  fatores, matrizes e operadores relacionais e lógicos. Mais importante ainda do que tais operações da linguagem, veremos como criar claúsula condicionais, "while" e "for" loops e funções. Com isso, saíremos do "R básico" em direção ao "R intermediário".
 
 Ignoraremos temporariamente alguns tópicos importantes: _data frames_, ao qual voltaremos na aula seguinte; listas; as funções da família _apply_ e outras utilidades relacionadas à manipulação de texto, datas e etc.
 
 ### Roteiro para a aula
 
-No início da aula, conversaremos sobre a dificuldade das leituras da primeira semana. Por favor, sejam extremamente sinceros e relatem se tiverem tido dificuldade(s). Se puderem, me digam quantas horas gastaram com a leitura e os exercícios.
+No início da aula, conversaremos sobre a dificuldade das leituras da primeira semana. Por favor, sejam extremamente sinceros e relatem se tiverem tido dificuldade(s). Se puderem, nos digam quantas horas gastaram com a leitura e os exercícios.
 
-Hoje faremos um bom teste para calibrar o material dos tutoriais em sala de aula. Tomei a decisão de fazer tutoriais mais curtos do que o planejado e voltar a alguns dos tópicos com mais complexidade em um próximo tutorial.
+Hoje faremos um bom teste para calibrar o material dos tutoriais em sala de aula. Tomamos a decisão de fazer tutoriais mais curtos do que o planejado e voltar a alguns dos tópicos com mais complexidade em um próximo tutorial.
 
 Como ainda estamos "calibrando" o curso e os tutoriais, pode ser que alguns de vocês não terminem o tutorial a tempo ou terminem cedo de mais. Se você está no primeiro grupo, não se preocupe, e siga o tutorial em casa. Se você está no segundo, faça os exercícios indicados no roteiro pós-aula.
 

@@ -20,7 +20,7 @@ Nesta aula vamos discutir o funcionamento do curso, definir os tópicos avançad
 
 ### Roteiro pós-aula
 
-Embora as aulas e os tutoriais abrajam o essencial do R, a leitura e o estudo fora de sala são partes muito importantes para você melhorar as suas habilidades de programação. Infelizmente, há poucos maiterias de qualidade disponibilizados em português. Logo não se sinta precionad@ a utilizar as leituras recomendadas.
+Embora as aulas e os tutoriais discutam o essencial do R, a leitura e o estudo fora de sala são partes muito importantes para você melhorar as suas habilidades de programação. Infelizmente, há poucos maiterias de qualidade disponibilizados em português. Logo não se sinta precionad@ a utilizar as leituras recomendadas.
 
 Leituras recomendadas:
 
@@ -30,7 +30,7 @@ Durante a leitura, caso tenha dificuldade com o inglês ou com os conceitos de p
 
 ### Exercício de correção de erros
 
-Ainda que o RStudio corriga as funções escritas por nós, exercícios de "correção de erros" ajudam a gente a se acustumar com a linguagem. Na medida do possível, iremos preparar exercícios desse tipo para que vocês possam faze em casa.
+Ainda que o RStudio corriga as funções escritas por nós, exercícios de "correção de erros" nos ajudam a nos acustumar com a linguagem. Na medida do possível, iremos preparar exercícios desse tipo para que vocês possam fazer em casa.
 
 [Fix the code 1](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/activities/fixthecode1.md)
 

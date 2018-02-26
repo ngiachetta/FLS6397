@@ -31,11 +31,11 @@ Por outro lado, em cada coluna há somente elementos de um tipo. Por exemplo, h�
 
 1- Discretas
 
-  - Nominais, que são categorias (normalmente texto) não ordenadas
+  - Nominais, que são categorias (normalmente texto) não ordenadas;
   
-  - Ordinais, que são categorias (normalmente texto) ordenadas
+  - Ordinais, que são categorias (normalmente texto) ordenadas;
   
-  - Inteiros, ou seja, o conjunto dos números inteiros
+  - Inteiros, ou seja, o conjunto dos números inteiros.
 
 2- Contínuas, números que podem assumir valores não inteiros
 
@@ -83,7 +83,7 @@ Com apenas 32 observações, não fica tão difícil "olhar" para os dados. Mas 
 
 ## Do editor de planilhas ao R - parte 1
 
-A partir desse ponto no curso vamos resistir à tentação de "olhar" para os dados. O hábito de quem utiliza com editores de planilha como MS Excel ou Libre Office, ou ainda com algums softwares de análise de dados como SPSS e Minitab, é trabalhar "olhando" para os dados, ou seja, para os valores de cada célula de uma base dados.
+A partir desse ponto no curso vamos resistir à tentação de "olhar" para os dados. O hábito de quem utiliza com editores de planilha como MS Excel ou Libre Office Calc, ou ainda com algums softwares de análise de dados como SPSS e Minitab, é trabalhar "olhando" para os dados, ou seja, para os valores de cada célula de uma base dados.
 
 Você perceberá em pouco tempo que isso não é necessário. Na verdade, é contraproducente. Nas primeiras aulas vamos nos munir de ferramentas que nos permitirão conhecer os dados sem olhá-los diretamente.
 
@@ -173,12 +173,13 @@ Com cada informação, vamos construir um vetor. Vejam meus exemplos. Começando
 
 ```{r}
 jornal <- c("The Guardian", "The Guardian", "The Guardian", "Folha de São Paulo", 
-            "Folha de São Paulo", "Folha de São Paulo")
+            "Folha de São Paulo", "Folha de São Paulo") 
+
 ```
 
 Opa, calma! Temos um monte de coisas novas aqui!
 
-A primeira delas é: se você criou corretamente o vetor _jornal_, então nada aconteceu na sua tela, ou seja, nenhum output foi impresso. Isso se deve ao fato de que criamos um novo __objeto__, chamado _jornal_ e __atribuímos__ a ele os valores coletados sobre os nomes dos veículos nos quais coletamos as notícias. O símbolo de __atribuição__ em R é `<-`. Note que o símbolo lembra uma seta para a esquerda, indicando que o conteúdo do vetor será armazenado no objeto _jornal_.
+A primeira delas é: se você criou corretamente o vetor _jornal_, então nada aconteceu na sua tela, ou seja, nenhum _output_ foi impresso. Isso se deve ao fato de que criamos um novo __objeto__, chamado _jornal_ e __atribuímos__ a ele os valores coletados sobre os nomes dos veículos nos quais coletamos as notícias. O símbolo de __atribuição__ em R é `<-`. Note que o símbolo lembra uma seta para a esquerda, indicando que o conteúdo do vetor será armazenado no objeto _jornal_.
 
 Objetos não são nada mais do que um nome usado para armazenar dados na memória RAM (temporária) do seu computador. No exemplo acima, _jornal_ é o objeto e o vetor é a informação armazenada. Uma vez criado, o objeto está disponível para ser usado novamente, pois ele ficará disponível no __workspace__. Veremos adiante que podemos criar um _data frame_ a partir de vários vetores armazenados na memória. Especificamente no RStudio, os objetos ficam disponíveis no painel _environment_ (que provavelmente está no canto direito superior da sua tela).
 
@@ -264,7 +265,10 @@ dados <- data.frame(newspaper = jornal,
                     date = date, 
                     title = titulo, 
                     author = autor, 
-                    n_char = caracteres, politica, esporte, video)
+                    n_char = caracteres, 
+                    politica, 
+                    esporte, 
+                    video)
 ```
 
 Usando as funções que aprendemos nessa aula:
@@ -286,6 +290,7 @@ dim(dados)
 ## Tipos de dados em R e vetores
 
 Usando o que aprendemos sobre vetores, vamos examinar com cuidado os tipos de dados que podem ser armazenados em vetores:
+
 __doubles__, __integers__, __characters__, __logicals__, __complex__, e __raw__. Neste tutorial, vamos examinar os 3 mais comumente usados na análise de dados: _doubles_, _characters_, _logicals_.
 
 ### Doubles
@@ -337,6 +342,8 @@ Automaticamente, o R transforma FALSE em 0 e TRUE em 1. Por exemplo, ao somar 4 
 
 Finalmente, vetores que contêm texto são do tipo _character_. O nome dos jornais, data, título e autor são informações que foram inseridas como texto (lembre-se, o R não sabe por enquanto que no vetor _date_ há uma data). Operações matemáticas não valem pare estes vetores.
 
+Podemos extrair informações desse tipo de dado por meio do _regex_ (_regular expressions_), mas isso é assunto para outra aula. Apenas tenham isso em mente.
+
 ## Tipo e classe
 
 Veremos em momento oportuno que os objetos em R também tem um atributo denominado __class__. A classe diz respeito às características dos objetos enquanto tipo diz respeito ao tipo de dado armazenado. No futuro ignoraremos o tipo e daremos mais atenção à classe, mas é sempre bom saber distinguir os tipos de dados que podemos inserir na memória do computador usando R.
@@ -345,9 +352,11 @@ Veremos em momento oportuno que os objetos em R também tem um atributo denomina
 
 R é uma linguagem extremamente flexível quanto ao formato de dados que podem ser importados. Comumente, utilizaremos dados provenientes de arquivos de texto (.txt, .csv, .tab, etc) ou de arquivos de excel transformados em arquivos de texto. Mas estas estão longe de serem as únicas possibilidades.
 
-Com o pacote _foreign_ abriremos arquivos produzidos por outros softwares -- como Stata e SPSS. Podemos também conectar o R a sistemas de gerenciamento de bancos de dados relacionais, como o SQL Server. Finalmente, podemos receber via web arquivos em formato XML ou Json e transformá-los em _data frames_ em poucos passos.
+Com o pacote _haben_ abriremos arquivos produzidos por outros softwares -- como Stata e SPSS. Podemos também conectar o R a sistemas de gerenciamento de bancos de dados relacionais, como o SQL Server. Finalmente, podemos receber via web arquivos em formato XML ou Json e transformá-los em _data frames_ em poucos passos.
 
-Vamos começar com o exemplo simples. Baixe os dados com resultados eleitorais (votação nominal por município e zona) do Acre em 2014 disponíveis [aqui](https://raw.githubusercontent.com/leobarone/FLS6397/master/data/votacao_candidato_munzona_2014_AC.txt) (clique em "Save link as" e faça o download o vá [aqui](https://github.com/leobarone/FLS6397/blob/master/data/votacao_candidato_munzona_2014_AC.txt) e clique em download). Estes dados são provenientes do [Repositório de Dados Eleitorais](http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais) do TSE. O Tribunal disponibiliza para cada ano eleitoral arquivos por UF em formato de texto (.txt) e numa pasta comprimida em formato .zip.
+Vamos começar com o exemplo simples. Baixe os dados com resultados eleitorais (votação nominal por município e zona) do Acre em 2014 disponíveis [aqui](https://raw.githubusercontent.com/ngiachetta/ProgCienciasSociais/master/data/votacao_candidato_munzona_2014_AC.txt) (clique em "Save link as" e faça o download o vá [aqui](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/data/votacao_candidato_munzona_2014_AC.txt) e clique em download). 
+
+Estes dados são provenientes do [Repositório de Dados Eleitorais](http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais) do TSE. O Tribunal disponibiliza para cada ano eleitoral arquivos por UF em formato de texto (.txt) e numa pasta comprimida em formato .zip.
 
 Obs: se você tiver algum problema com o download, encoding, ou outro, pode ir direto ao Repositório e fazer o download de lá. Quando aprendermos algo de github esse problema deixará de existir.
 
@@ -375,7 +384,7 @@ Veja que não precisamos usar o botão de importação do RStudio para abrir o a
 # Tente usar \\ (duas barras invertidas) no lugar de uma barra
 # Alternativamente, copie o endereco usado pelo RStudio via botao de importacao
 votacao_candidato_munzona_2014_AC <- read.table(
-  "~/FLS6397/data/votacao_candidato_munzona_2014_AC.txt", 
+  "c:/Users/fcslab122/Downloads/votacao_candidato_munzona_2014_AC.txt", 
   sep = ";", fileEncoding="latin1")
 ```
 
@@ -410,13 +419,13 @@ No próximo tutorial aprenderemos a transformar o _data frame_ e alterar os nome
 Uma vez que importamos os dados, podemos trabalhar com as colunas do _data frame_ como se fossem vetores. Por exemplo, vamos tirar a média (com a função _mean_) da coluna V29, que é a coluna "votos" -- no caso, de cada candidato em cada zona eleitoral. Veja:
 
 ```{r, error=TRUE}
-mean(V29)
+mean(X29)
 ```
 
-Opa! O vetor V29 não foi encontrado! Isso ocorre porque V29 não é um objeto no nosso _workspace_. Como podemos ter mais de um _data frame_, se houvesse dois _data frames_ com variáveis com nome V29 haveria confusão. O vetor com o qual queremos trabalhar está dentro do objeto _votacao\_candidato\_munzona\_2014\_AC_. Indicamos sua localização colocando primeiro o nome do _data frame_, seguido do símbolo $ e depois do nome da coluna:
+Opa! O vetor X29 não foi encontrado! Isso ocorre porque V29 não é um objeto no nosso _workspace_. Como podemos ter mais de um _data frame_, se houvesse dois _data frames_ com variáveis com nome V29 haveria confusão. O vetor com o qual queremos trabalhar está dentro do objeto _votacao\_candidato\_munzona\_2014\_AC_. Indicamos sua localização colocando primeiro o nome do _data frame_, seguido do símbolo $ e depois do nome da coluna:
 
 ```{r, error=TRUE}
-mean(votacao_candidato_munzona_2014_AC$V29)
+mean(votacao_candidato_munzona_2014_AC$X29)
 ```
 
 ## Paramos por aqui
