@@ -140,7 +140,6 @@ Auto-explicativo, certo?
 
 Aproveitando o embalo dos vetores atômicos, vamos ver um pouco mais sobre vetores de tamanho maior que 1. Alguns exemplos e suas classes:
 
-
 ```{r}
 vetor_numerico <- c(42, 7, 999, 3.14)
 vetor_texto <- c("texto", "a", 'jota', "Miriam", "4")
