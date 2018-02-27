@@ -4,7 +4,7 @@
 
 ## Responsáveis: 
 
-* Alexia Aslan
+* Alexia Aslan (alexia.aslan@gmail.com)
 * Leonardo Diegues (dscleo@gmail.com)
 * Nathan Giachetta (ngiachetta@gmail.com)
 * Rafael Coelho (rafael.coelho.x@gmail.com)
