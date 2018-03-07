@@ -31,7 +31,7 @@ As aulas terão início no dia 7 de Março às 19h30.
 - 11/04/2018 - [Aula 6](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class6.md) - R para Ciência de dados e introdução ao R Markdown.
 - 18/04/2018  - [Aula 7](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class7.md) - R para Ciência de dados (continuação)
 - 25/04/2018 - [Aula 8](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class8.md) - Mapas no R 
-- 02/05/2018 - [Aula 9](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class9.md) - (1) Sistemas de Gerenciamento de Banco de Dados, R e SQL; (2) Introdução ridiculamente breve ao aprendizado de máquina.
+- 02/05/2018 - [Aula 9](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class9.md) - (1) Sistemas de Gerenciamento de Banco de Dados, R e SQL; (2) Github
 - 09/05/2018 - [Aula 10](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class10.md) - Strings e Mineração de Textos no R
 - 16/05/2018 - [Aula 11](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class11.md) - Aprofundamento em ggplot e programação funcional
 - 23/06/2018 - [Aula 12](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class12.md) - Aprofundamento em ggplot e programação funcional (continuação)
