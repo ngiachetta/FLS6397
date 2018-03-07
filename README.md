@@ -18,6 +18,7 @@ Este curso pretende preencher uma lacuna de formação comum em alun@s da gradua
 O curso está dividido em duas partes. A primeira parte do curso foca na preparação do ambiente computacional, apresentação de ferramentas e "alfabetização" e nas linguagens de programação utilizadas no curso -- R, Git, SQL, Markdown, etc. A segunda parte foca em aplicações das habilidades desenvolvidas a problemas de manipulação de grandes bases de dados, coleta de dados na internet e via uso de APIs de terceiros, organização de documentos para análise textual, confecção de gráficos e mapas ou demais tópicos de interesse da turma. Os tópicos serão apresentadas definitivamente no syllabus no começo do semestre e abaixo segue uma lista provisória.
 
 [Informações básicas](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/info_basica.md)
+
 ## Aulas
 
 As aulas terão início no dia 7 de Março às 19h30.
@@ -26,15 +27,14 @@ As aulas terão início no dia 7 de Março às 19h30.
 - 14/03/2018 - [Aula 2](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class2.md) - Do básico ao intermediário.
 - 21/03/2018 - [Aula 3](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class3.md) - Abrindo e manipulando _data frames_.
 - 28/04/2018 - [Aula 4](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class4.md) - Primeiros passos no tidyverse.
-- 04/04/2018 - [Aula 5](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class5.md) - Webscrapping com R. Presença em sala de aula será opcional.
-- 11/04/2018 - Não haverá aula.
-- 18/04/2018 - [Aula 6](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class6.md) - R para Ciência de dados e introdução ao R Markdown.
-- 25/04/2018 - [Aula 7](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class7.md) - R para Ciência de dados (continuação) - não haverá aula presencial por conta do Seminário Discente.
-- 02/05/2018 - [Aula 8](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class8.md) - Mapas no R 
-- 09/05/2018 - [Aula 9](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class9.md) - (1) Sistemas de Gerenciamento de Banco de Dados, R e SQL; (2) Introdução ridiculamente breve ao aprendizado de máquina.
-- 16/05/2018 - [Aula 10](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class10.md) - Strings e Mineração de Textos no R
-- 23/06/2018 - [Aula 11](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class11.md) - Aprofundamento em ggplot e programação funcional
-- 30/06/2018 - [Aula 12](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class12.md) - Aprofundamento em ggplot e programação funcional (continuação)
+- 04/04/2018 - [Aula 5](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class5.md) - Webscrapping com R.
+- 11/04/2018 - [Aula 6](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class6.md) - R para Ciência de dados e introdução ao R Markdown.
+- 18/04/2018  - [Aula 7](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class7.md) - R para Ciência de dados (continuação)
+- 25/04/2018 - [Aula 8](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class8.md) - Mapas no R 
+- 02/05/2018 - [Aula 9](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class9.md) - (1) Sistemas de Gerenciamento de Banco de Dados, R e SQL; (2) Introdução ridiculamente breve ao aprendizado de máquina.
+- 09/05/2018 - [Aula 10](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class10.md) - Strings e Mineração de Textos no R
+- 16/05/2018 - [Aula 11](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class11.md) - Aprofundamento em ggplot e programação funcional
+- 23/06/2018 - [Aula 12](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class12.md) - Aprofundamento em ggplot e programação funcional (continuação)
 
 Obs: As aulas 11 e 12 não estão confirmadas!
 
