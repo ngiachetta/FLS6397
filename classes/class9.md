@@ -13,7 +13,7 @@ Estamos caminhando para o final do curso e tivemos um mês e meio de muita turbu
 
 1 - Apresentar as possibilidades de integração do R com Sistemas de Gerenciamento de Bancos de dados, como os populares MySQL, PostgreSQL e SQLite. Mostrarei rapidamente o que é o MySQL e como é a linguagem SQL.
 
-2 - Uma introdução rápida ao aprendizando de máquina a partir de conjuntos de dados "clássicos" da literatura. Essa parte, em tese, requer algum conhecimento em estatística. Escrevi o tutorial assumindo um público que não cumpre esse requisito. Esse material não seria originalmente tópico do curso, mas como o dia "ficou leve" com o tutorial de MySQL, achei que o tema faria um bom encaixe e forneceria alguns exemplos simples de análise de dados dos quais o curso carece pela sua própria natureza. Este tópico é opcional.
+2 - Uma
 
 ### Roteiro para a aula
 
