@@ -1,0 +1,28 @@
+---
+title: "Aula 2"
+author: "Rafael Coelho"
+date: "14 de Março de 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+#1. Tópicos da Aula
+
+---
+
+1. O R básico
+
+    + Operações matemáticas
+    + Vetores
+    + Matrizes
+
+2. Controladores de Fluxo
+
+    + Operadores relacionais
+    + Cláusulas condicionais (if)
+    + Repetições (while e loops)
+    + Funções
+    
