@@ -40,12 +40,6 @@ Se você tiver acabado tudo com rapidez, minha sugestão é botar em dia a leitu
 
 Vamos treinar três tópicos dos tutoriais de hoje com exercícios: cláusula condicionais, loops e funções. Faça os exercícios deste link (ainda não disponível - mandarei e-mail assim que estiver).
 
-### Exercício de correção de erros
-
-Quero fazer um exercício mais longo de "arrumação de código". Ainda não está preparado e faremos o exercício em momento oportuno.
-
-[Fix the code 2](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/activities/fixthecode2.md)
-
 ### Recurso para auto-estudo
 
 Repito a dica "[Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)" no site Datacamp. O Tutorial 2 segue este curso como modelo.

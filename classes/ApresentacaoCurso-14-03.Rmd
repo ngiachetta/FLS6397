@@ -1,8 +1,9 @@
 ---
-title: "Aula 2 - Colocando o PC para trabalhar"
-author: "Rafael Coelho"
-date: "14 de Março de 2018"
-output: ioslides_presentation
+title: "Aula 2"
+fontsize: 13pt
+output:
+  beamer_presentation: default
+  widescreen: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -30,17 +31,11 @@ knitr::opts_chunk$set(echo = T)
 
 ```{r}
 1 + 1
-```
 
-```{r}
 5 * 5
-```
 
-```{r}
 10/2
-```
 
-```{r}
 10^2
 ```
 
@@ -76,10 +71,62 @@ Objetos de duas dimensões
 matrix(1:9, ncol = 3, nrow =  3)
 ```
 
+- Qual a diferença de uma matriz para um _data frame_?
+
 ##2.1. Operadores relacionais
+
+- Por que?
+
+- Condições
+
+- == !=
+
+- & | 
+
+- > <  >= <=
+
+- %in%
 
 ##2.2. Cláusulas condicionais (if)
 
-##2.3. Repetições (while loops)
+- Como controlar o meu código?
 
+```
+if(CONDIÇÃO){
+  
+  FUNÇÃO
+
+}
+```
+
+##2.3. Repetições (while for)
+
+- Como deixar o PC trablhar por mim?
+
+```
+white(CONDIÇÃO){
+
+  FUNÇÕES
+
+}
+```
+
+```
+for(valor in conjunto){
+  
+  FUNÇÕES
+  
+}
+```
 ##2.4. Funções
+
+- Não se repita!
+
+```
+nome_função <- function(arg1, arg2){
+
+  FUNÇÕES
+
+}
+
+```
