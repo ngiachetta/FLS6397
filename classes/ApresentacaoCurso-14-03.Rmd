@@ -1,20 +1,21 @@
 ---
-title: "Aula 2"
-fontsize: 13pt
+title: "Aula 2 - Introdução à Programação"
+author: "Rafael Coelho"
+date: "14 de Março de 2018"
 output:
-  beamer_presentation: default
-  widescreen: yes
+  beamer_presentation:
+    colortheme: beaver
+    theme: Berlin
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = T)
-```
+#Sumário
 
-#1. Tópicos da Aula
+1. O que nós vimos?
 
----
+    + Vetores e Data frames
+    + Tipos e Classes das Variáveis
 
-1. O R básico
+2. O R básico
 
     + Operações matemáticas
     + Vetores
@@ -26,20 +27,32 @@ knitr::opts_chunk$set(echo = T)
     + Cláusulas condicionais (if)
     + Repetições (while loops)
     + Funções
-    
-##1.1. R como calculadora
+
+#1. O que nós vimos?
+
+- Data frames, vetores, tipos e classes de variáveis
+
+```{r}
+anos <- c(2015,2016,2017)
+
+protestos <- c(150, 240, 100)
+
+data.frame(anos, protestos)
+```
+
+#2. R Básico
+
+__2.1. Operações matemáticas__
 
 ```{r}
 1 + 1
 
 5 * 5
-
-10/2
-
-10^2
 ```
 
-##1.2. Vetores
+---
+
+__2.2. Vetores__
 
 A unidade básica do R é o vetor
 
@@ -55,7 +68,9 @@ A unidade básica do R é o vetor
 c(1,2,3, NA, 5,6)
 ```
 
-##Pergunta
+---
+
+__Pergunta__
 
 O que acontece quando juntamos diferentes tipos de elementos em um vetor?
 
@@ -63,7 +78,9 @@ O que acontece quando juntamos diferentes tipos de elementos em um vetor?
 c(T, NA, "Hello World", 42, -1)
 ```
 
-##1.3. Matrizes
+---
+
+__2.3. Matrizes__
 
 Objetos de duas dimensões
 
@@ -73,21 +90,27 @@ matrix(1:9, ncol = 3, nrow =  3)
 
 - Qual a diferença de uma matriz para um _data frame_?
 
-##2.1. Operadores relacionais
+#3. Automatizando processos
+
+__3.1. Operadores relacionais__
 
 - Por que?
 
-- Condições
+- Operações booleanas
 
-- == !=
+- FALSE e TRUE
 
-- & | 
+1. == !=
 
-- > <  >= <=
+2. & | 
 
-- %in%
+3. \> <  >= <=
 
-##2.2. Cláusulas condicionais (if)
+4. %in%
+
+---
+
+__3.2. Cláusulas condicionais (if)__
 
 - Como controlar o meu código?
 
@@ -99,12 +122,14 @@ if(CONDIÇÃO){
 }
 ```
 
-##2.3. Repetições (while for)
+---
 
-- Como deixar o PC trablhar por mim?
+__3.3. Repetições (while for)__
+
+- Deixe o computador trabalhar! Apenas defina a lógica.
 
 ```
-white(CONDIÇÃO){
+while(CONDIÇÃO){
 
   FUNÇÕES
 
@@ -118,9 +143,16 @@ for(valor in conjunto){
   
 }
 ```
-##2.4. Funções
+
+---
+
+__3.4. Funções__
 
 - Não se repita!
+
+- Se estiver escrevendo um código mais de 3 ou 4 vezes, considere escrever uma função!
+
+- Por que?
 
 ```
 nome_função <- function(arg1, arg2){
@@ -128,5 +160,4 @@ nome_função <- function(arg1, arg2){
   FUNÇÕES
 
 }
-
 ```
