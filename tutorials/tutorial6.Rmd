@@ -22,7 +22,7 @@ library(data.table)
 library(dplyr)
 ```
 
-Vamos agora abrir os dados com a função _fread_, que vimos em tutoriais passados.
+Vamos agora abrir os dados com a função _fread_, que vimos em tutoriais passados. Ob!servação: Fiquem atentos ao diretório em que o arquivo está!
 
 ```{r, include = F}
 saques <- fread("/home/acsa/Downloads/201701_BolsaFamiliaSacado.csv", encoding = "Latin-1")
@@ -241,6 +241,7 @@ Nem todas as transformações de variáveis, porém, são operações matemátic
 saques_amostra_201701 <- saques_amostra_201701 %>% 
   mutate(valor_categorico = cut(valor_num, c(0, 300, Inf), c("Baixo", "Alto")))
 ```
+Para entender um pouco mais sobre o comando _cut_ clique [aqui](https://www.r-bloggers.com/r-function-of-the-day-cut-2/)
 
 E se quisermos recodificar uma variável de texto? Por exemplo, vamos examinar a variável "mes". Ela contém o "Mês de Competência" do saque. Usemos a função _table_ para examiná-la:
 
