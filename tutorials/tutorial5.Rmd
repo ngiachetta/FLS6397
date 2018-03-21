@@ -2,21 +2,23 @@
 
 A esta altura do campeonato, você já tem bastante recursos para programar em R. Combinando seu conhecimento sobre vetores, _data frames_, tipos de dados, loops, condicionais e funções dá para fazer um bocado de coisas legais. Depois deste tutorial, voltaremos a esteś tópicos para exercitar o que aprendemos.
 
-Falta, porém, algo essencial e muito próprio da linguagem R: como manipular variáveis e observações em um _data frame_. Boa parte da tarefa de organização de dados para a pesquisa se resume ao que faremos neste tópico. Este é o uso da lingaugem R que se aproxima do uso de outras ferramantas como SPSS, Stata e SAS.
+Falta, porém, algo essencial e muito próprio da linguagem R: como manipular variáveis e observações em um _data frame_. Boa parte da tarefa de organização de dados para a pesquisa se resume ao que faremos neste tópico. Este é o uso da linguagem R que se aproxima do uso de outras ferramantas como SPSS, Stata e SAS.
 
 No tutorial anterior, sobre abertura de dados, mencionei que há "gramáticas" diferentes para a manipulação de dados em R. Nosso objetivo é aprender bem a "gramática" do _tidyverse_ (que por si só seria suficiente) e vamos ignorar a do pacote _data.table_ (por pura economia de tempo, pois ela pode ser bastante útil).
 
-A "gramática" básica do R é pouco elegante e essa é uma das barreiras ao aprendizado da linguagem. Ela é bem mais confusa e "verbosa" (ou seja, tem que escrever muito para realizar pouco) do que as dos demais softwares de análise de dados e do _tidyverse_. Mas sem conhecer como funciona a "gramática" básica da linguagem R, nossa capacidade de aprender mais no futuro ficaria bastante limitada. Lembre-se que aprenderemos num futuro breve formas equivalentes de fazermos as mesmas coisas.
+A "gramática" básica do R é pouco elegante e essa é uma das barreiras ao aprendizado da linguagem. Ela é bem mais confusa e "verbosa" (ou seja, tem que escrever muito para realizar pouco) do que as dos demais softwares de análise de dados e do _tidyverse_. Mas sem conhecer como funciona a "gramática" básica da linguagem R, nossa capacidade de aprender mais no futuro ficaria bastante limitada. Lembre-se que aprenderemos num futuro breve (próxima aula) formas equivalentes de fazermos as mesmas coisas.
 
 ## Variáveis e data frames
 
-Para esta atividade, vamos trabalhar com um banco de dados falso que criei ("fake_data" -- está em inglês, pois é reciclagem de outro curso que lecionei).
+Nessa atividade, iremos utilizar um banco de dados falso. Ele está em inglês. Caso sinta alguma dificuldade, basta chamar um dos monitores!
 
 Vamos nos adaptar a abrir dados com funções dos pacotes _readr_, _data.table_ e _haven_. Para este exercício, podemos usar _read\_delim_:
 
 ```{r}
 library(readr)
+
 url_fake_data <- "https://raw.githubusercontent.com/leobarone/FLS6397/master/data/fake_data.csv"
+
 fake <- read_delim(url_fake_data, delim = ";", col_names = T)
 ```
 
@@ -54,10 +56,11 @@ Podemos fazer uma cópia do vetor "age" que não seja variável "fake"? Sim:
 
 ```{r}
 idade <- fake$age
+
 print(idade)
 ```
 
-Porque não podemos simplesmente usar "age" e precisamos colocar o nome do _data frame_ seguido de "$" para indicar o vetor do conjunto de dados? Por que podemos ter mais de um _data frame_ no mesmo __workspace__ com uma variável de nome "age". Pense no _data frame_ + nome da variável como um endereço composto da variável no seu workspace que evita ambiguidade. Para quem está aconstumad@ a trabalhar com SPSS, Stata ou SAS, ter que indicar qual é o _data frame_ ao qual a variável pertence parece estranho, mas faz todo sentido para o R.
+Porque não podemos simplesmente usar "age" e precisamos colocar o nome do _data frame_ seguido de "$" para indicar o vetor do conjunto de dados? Por que podemos ter mais de um _data frame_ no mesmo __workspace__ com uma variável de nome "age". Pense no _data frame_ + nome da variável como um endereço composto da variável no seu workspace que evita ambiguidade. Para quem está aconstumad@ a trabalhar com SPSS, Stata ou SAS, ter que indicar qual é o _data frame_ ao qual a variável pertence parece estranho, mas faz todo sentido para o R, além de se demonstrar um recurso muito útil para realizar _merges_ (veremos isso em uma aula futura).
 
 Outros exemplos simples de como usar variáveis de um _data frame_ em outras funções (algumas das quais veremos no futuro, mas você já pode ir se acostumando à linguagem).
 
@@ -85,8 +88,6 @@ Tabela de duas entradas para duas variávels categóricas (contagem):
 ```{r}
 table(fake$party, fake$candidate)
 ```
-
-No começo pode parecer um pouco irritante usar o "endereço" completo da variável, mas você logo se acostuma.
 
 ## Dimensões em um data frame
 
@@ -148,7 +149,7 @@ Neste _data frame_ as linhas não têm nomes (mas poderiam ter). As colunas, no 
 fake[, c("age", "income", "party")]
 ```
 
-Mas o código seguinte não é válido, pois o operador ":" serve somente para gerar sequências de números inteiros.
+Mas o código seguinte __não__ é válido, pois o operador ":" serve somente para gerar sequências de números inteiros.
 
 ```{r, error = T}
 fake[, "age":"sex"]
@@ -160,12 +161,13 @@ Vamos super que acabamos de abrir os resultados eleitorais do Rio Grande do Sul 
 new_fake <- fake[, c("age", "income", "party", "candidate")]
 ```
 
-
 E se quiseremos todas as colunas menos "turnout" e "vote_history"? Podemos usar a função _setdiff_, que gera a diferença entre dois vetores, por exemplo, o vetor com todos os nomes de colunas (gerado com a função _names_) e o vetor com as colunas que desejamos excluir. Vamos guardar o resultado em "new\_fake2"
 
 ```{r}
 selecao_colunas <- setdiff(names(fake), c("turnout", "vote_history"))
+
 print(selecao_colunas)
+
 new_fake2 <- fake[,selecao_colunas]
 ```
 
@@ -232,10 +234,11 @@ Criar uma nova coluna em um _data frame_ é trivial. Por exemplo, vamos criar a 
 fake$vazia <- NA
 ```
 
-Podemos criar uma coluna a partir de outra(s). Por exemplo, vamos criar duas novas colunas, "poupança", que será igual a coluna "savings" mas em real (cotação de um FM\$ -- fake money -- é R\$ 17) e a coluna "savings\_year", que será a divisão de "savings" por anos do indíviduo a partir dos 18.
+Podemos criar uma coluna a partir de outra(s). Por exemplo, vamos criar duas novas colunas, "poupança", que será igual a coluna "savings" mas em real (cotação de um FM\$ -- fake money -- é R\$ 17, ou seja 1 _fake money_ equivale a 17 reais) e a coluna "savings\_year", que será a divisão de "savings" por anos do indíviduo a partir dos 18.
 
 ```{r}
 fake$poupanca <- fake$savings / 17
+
 fake$savings_year <- fake$savings / (fake$age - 18)
 ```
 
@@ -244,9 +247,8 @@ Você pode fazer qualquer operação com vetores que vimos em tutoriais anterior
 Se quiser substituir o conteúdo de uma variável em vez de gerar uma nova, o procedimento é o mesmo. Basta atribuir o resultado da operação entre vetores à variável existente, tal qual no exemplo, que transforma "age" em uma variável medida em meses:
 
 ```{r}
-fake$age <- fake$age  * 12
+fake$age <- fake$age * 12
 ```
-
 
 Vamos ver agora como substituir valores em uma variável para depois aprendermos a recodificarmos variáveis.
 
@@ -413,7 +415,7 @@ head(fake)
 ```
 
 Você não precisa de um vetor com todos os nomes sempre que precisar alterar algum. Basta conhecer a posição da variável que quer alterar. Veja um exemplo com "marriage", que está na sexta posição:
-
+
 ```{r}
 names(fake)[6] <- "casado"
 ```

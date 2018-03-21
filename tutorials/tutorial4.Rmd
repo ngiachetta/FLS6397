@@ -234,7 +234,7 @@ Do ponto de vista forma, as três funções de importação de dados de texto do
 
 Ainda no pacote _readr_, duas funções são bastante úteis
 
-## Outra gramática para dados em R: data.table
+## Outra gramática para dados em R: data.table (OPICIONAL)
 
 No curso vamos trabalhar com duas "gramáticas" para dados em R: a dos pacotes básicos e a fornecida pelos pacotes do _tidyverse_. O pacote _data.table_ oferece uma terceira alternativa, que não trabalharemos no curso. Esta "gramática" guarda semelhanças (poucas, ao meu ver) com a linguagem SQL.
 
