@@ -29,7 +29,7 @@ As aulas terão início no dia 7 de Março às 19h30.
 - 28/04/2018 - Semana Santa
 
 - 04/04/2018 -[Aula 4](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class4.md) - Primeiros passos no tidyverse.
-- 11/04/2018 - [Aula 5](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class5.md) - Webscrapping com R.
+- 11/04/2018 - [Aula 5](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class5.md) - Web Scraping com R.
 - 18/04/2018 - [Aula 6](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class6.md) - R para Ciência de dados e introdução ao R Markdown.
 - 25/04/2018 - [Aula 7](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class7.md) - R para Ciência de dados (continuação)
 - 02/05/2018 - [Aula 8](https://github.com/ngiachetta/ProgCienciasSociais/blob/master/classes/class8.md) - Mapas no R 
