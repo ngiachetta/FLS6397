@@ -3,7 +3,7 @@
 - Responsável: Leonardo S. Barone
 - Data: 22/05/2017
 
-## Aula 9 - Integração com SGBD (MySQL) e Github
+## Aula 9 - Integração com SGBD (MySQL) e Git
 
 ### Avisos importantes
 
@@ -13,7 +13,7 @@ Estamos caminhando para o final do curso e tivemos um mês e meio de muita turbu
 
 1 - Apresentar as possibilidades de integração do R com Sistemas de Gerenciamento de Bancos de dados, como os populares MySQL, PostgreSQL e SQLite. Mostrarei rapidamente o que é o MySQL e como é a linguagem SQL.
 
-2 - Uma
+2 - Introduzir a ferramenta Git, para o que ela serve e como podemos utilizá-la com o RStudio em conjunto com o Github.
 
 ### Roteiro para a aula
 
