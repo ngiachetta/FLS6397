@@ -12,7 +12,7 @@ Aprender a raspar dados da internet com a biblioteca `rvest`.
 
 ### Roteiro para a aula
 
-Faça as 3 atividades de web scraping até antes da aula do dia 24/07: [Atividade 1](https://github.com/ngiachetta/Webscraping_R_XML_Legislativo_2016_1/blob/master/Atividade_1-TIDY.Rmd), [Atividade 2](https://github.com/ngiachetta/Webscraping_R_XML_Legislativo_2016_1/blob/master/Atividade_2-TIDY.Rmd) e [Atividade 3](https://github.com/ngiachetta/Webscraping_R_XML_Legislativo_2016_1/blob/master/Atividade_3-TIDY.Rmd)
+Faça as 3 atividades de web scraping: [Atividade 1](https://github.com/ngiachetta/Webscraping_R_XML_Legislativo_2016_1/blob/master/Atividade_1-TIDY.Rmd), [Atividade 2](https://github.com/ngiachetta/Webscraping_R_XML_Legislativo_2016_1/blob/master/Atividade_2-TIDY.Rmd) e [Atividade 3](https://github.com/ngiachetta/Webscraping_R_XML_Legislativo_2016_1/blob/master/Atividade_3-TIDY.Rmd)
 
 Para explorar ainda mais o `rvest` sugiro que você dê uma rápida olhada [aqui](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/) e [aqui](https://stat4701.github.io/edav/2015/04/02/rvest_tutorial/) para aprender um pouco sobre esse pacote.
 
